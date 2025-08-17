@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="数据库管理">
+
+        <ListPreference
+            app:key="database_selection"
+            app:title="选择数据库"
+            app:summary="切换当前使用的数据表"
+            app:useSimpleSummaryProvider="false" />
+
+        <Preference
+            app:key="create_database"
+            app:title="创建新数据库"
+            app:summary="创建一个新的空数据库文件"/>
+
+        <Preference
+            app:key="delete_database"
+            app:title="删除当前数据库"
+            app:summary="删除当前选中的数据库文件"
+            app:icon="@android:drawable/ic_menu_delete"/>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory app:title="数据操作">
+
+            <Preference
+                app:key="clear_marked_status"
+                app:title="重置所有标记状态"
+                app:summary="将当前数据库中所有条目设为未标记"/>
+
+            <Preference
+                app:key="clear_all_data"
+                app:title="清空所有数据"
+                app:summary="警告：将删除当前数据库中的所有条目"/>
+
+            </PreferenceCategory>
+
+        <PreferenceCategory app:title="关于">
+
+            <Preference
+                app:key="about_app"
+                app:title="关于此应用"
+                app:summary="查看应用信息、开源许可和作者"
+                app:icon="@android:drawable/ic_menu_info_details"/>
+
+        </PreferenceCategory>
+
+        </PreferenceScreen>

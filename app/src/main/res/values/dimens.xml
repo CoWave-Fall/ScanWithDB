@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AboutFragment 中许可证对话框的内边距 -->
+    <dimen name="dialog_padding">24dp</dimen>
+</resources>

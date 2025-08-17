@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="database_entries">
+        <item>默认数据库</item>
+        <item>备用数据库 A</item>
+        <item>备用数据库 B</item>
+    </string-array>
+    <string-array name="database_values">
+        <item>default_database.db</item>
+        <item>database_a.db</item>
+        <item>database_b.db</item>
+    </string-array>
+</resources>

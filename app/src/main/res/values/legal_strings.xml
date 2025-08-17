@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 版权和法律免责声明 -->
+    <string name="about_copyright_info">© 2025 YourName. 保留所有权利。\n\n本应用程序按“原样”提供，不附带任何明示或暗示的保证，包括但不限于对适销性、特定用途适用性和非侵权性的暗示保证。在任何情况下，作者或版权持有人均不对任何索赔、损害或其他责任承担任何责任，无论是在合同诉讼、侵权行为或其他方面，无论是由于使用本软件或与本软件有关的任何行为所引起的。</string>
+
+    <!-- 开源许可按钮文本 -->
+    <string name="action_view_licenses">查看开放源代码许可</string>
+
+    <!-- 开源许可对话框标题 -->
+    <string name="dialog_title_licenses">开放源代码许可</string>
+
+    <!-- 所有开源库的许可信息 -->
+    <!-- 将所有库的许可信息合并到一个字符串中，用换行符分隔 -->
+    <string name="licenses_content">
+        本应用使用了以下优秀的开源项目，感谢所有开发者和贡献者。\n\n
+        ------------------------------------\n\n
+        <b>AndroidX Libraries (AppCompat, Core, ConstraintLayout, etc.)</b>\n
+        <b>Material Components for Android</b>\n
+        <b>Dagger Hilt</b>\n
+        <b>Room Persistence Library</b>\n
+        <b>Navigation Component</b>\n
+        <b>CameraX</b>\n
+        <b>Kotlin Programming Language</b>\n
+        <small>Licensed under the Apache License, Version 2.0 (the \"License\");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an \"AS IS\" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</small>\n\n
+        ------------------------------------\n\n
+        <b>Google ML Kit: Barcode Scanning</b>\n
+        <small>使用此 API 即表示您同意遵守 Google API 服务条款 (Google APIs Terms of Service)。详情请访问：https://developers.google.com/terms</small>\n\n
+        ------------------------------------\n\n
+        <b>JUnit</b>\n
+        <small>Licensed under the Eclipse Public License 1.0.
+A copy of the license is available at http://www.eclipse.org/legal/epl-v10.html</small>\n\n
+    </string>
+</resources>

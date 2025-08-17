@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">核码</string>
+    <string name="version_prefix_template">Version: %1$s</string>
+    <string name="version_not_available">Version: N/A</string>
+    <!-- 从你的应用已有的 app_name 字符串 -->
+    <!-- <string name="app_name">核码</string> -->
+    <string name="current_db_template">当前库: %s</string>
+    <string name="marked_title">已标记 (%d)</string>
+    <string name="unmarked_title">未标记 (%d)</string>
+    <!-- 关于页面的字符串 -->
+    <string name="about_version_template">版本 %1$s</string>
+    <string name="about_developer_name">开发者：[您的名字或团队名称]</string>
+    <string name="app_icon_description">应用图标</string>
+    <string name="about_copyright_placeholder">© 2024 [您的名字或公司]. 保留所有权利.</string>
+
+    <!-- 你可能还需要其他字符串，例如标题 -->
+    <string name="title_about">关于</string>
+</resources>
