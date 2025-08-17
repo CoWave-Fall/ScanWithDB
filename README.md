@@ -1,6 +1,6 @@
 # 核码 / ScanWithDB
 
-一个灵活的Android条码扫描与数据库管理应用，允许用户扫描条码并将其保存到可动态切换的多个本地数据库中。
+一个灵活的Android条码扫描与数据库管理应用，允许用户扫描条码并将其与可动态切换的多个本地数据库比对并生成报告。
 
 [![构建状态](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/CoWave-Fall/IPMI-ProgrammedFanTweaker)
 [![最新版本](https://img.shields.io/github/v/release/CoWave-Fall/ProgrammedFanTweaker)](https://github.com/CoWave-Fall/IPMI-ProgrammedFanTweaker/releases)
@@ -10,7 +10,9 @@
 
 ## 关于项目
 
-核码 / ScanWithDB 旨在提供一个简单而强大的工具，用于需要将扫描数据分类存储在不同数据库的场景。用户可以轻松创建新的数据库文件，在不同的数据库之间切换，以及管理其中的数据。本项目完全开源，并使用现代化的Android开发技术栈构建。
+核码 / ScanWithDB 旨在提供一个简单而强大的工具，用于需要将扫描数据与不同数据库比对的场景。用户可以轻松创建新的数据库文件，在不同的数据库之间切换，以及管理其中的数据。本项目完全开源，并使用现代化的Android开发技术栈构建。
+
+典型的用例为快速统计库中的对象的在场情况。
 
 ### 主要技术栈
 
@@ -36,8 +38,6 @@
     *   查看当前数据库中的所有扫描记录。
     *   标记或取消标记特定条目。
     *   清空当前数据库的所有数据。
-*   **自定义启动画面**: 包含作者信息的自定义启动动画。
-*   **关于页面**: 提供详细的开源许可和作者信息。
 
 ## 开始使用
 
